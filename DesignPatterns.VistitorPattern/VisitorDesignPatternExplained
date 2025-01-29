@@ -1,0 +1,8 @@
+Use case : when we want different classes or objects to interact with one another without having 
+to add functionality to existing classes . Each class has it's own interface .
+We can use the visitor design pattern to add functionality to a class without 
+having to manually add it to the existing class . Functionality is defined in a separate interface(Class B interface)and interface is taken as 
+a parameter in the accept() function (in class A ). Accept function will execute the vist() of class B .
+Thus we have added functionality of class A without having to manually implement it in each class . 
+
+Goal is to add functionality without changing or altering existing classes.
